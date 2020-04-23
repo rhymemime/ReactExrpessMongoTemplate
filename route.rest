@@ -10,7 +10,7 @@ POST http://localhost:5000/test
 Content-Type: application/json
 
 {
-    "name": "TEst testst",
+    "name": "hello",
     "subscribedToChannel": "Ben Ramseys fake channel"
 }
 
