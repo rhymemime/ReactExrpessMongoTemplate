@@ -1,4 +1,4 @@
-# React Express Starter Pack
+# React Express Mongo Starter Pack
 
 > Create full stack apps with React and Express. Run your client and server with a single command. 
 
