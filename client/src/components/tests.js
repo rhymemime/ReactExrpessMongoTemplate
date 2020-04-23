@@ -18,7 +18,7 @@ class Tests extends Component {
   render() {
     return (
       <div>
-        <h2>Customers</h2>
+        <h2>Tests</h2>
         <ul>
         {this.state.tests.map(test => 
           <li key={test._id}>{test.name}</li>
