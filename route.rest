@@ -2,4 +2,27 @@ GET http://localhost:5000/test
 
 ###
 
-GET http://localhost:5000/test/15
+GET http://localhost:5000/test/5ea1c827301a615dc8923187
+
+###
+
+POST http://localhost:5000/test
+Content-Type: application/json
+
+{
+    "name": "TEst testst",
+    "subscribedToChannel": "Ben Ramseys fake channel"
+}
+
+###
+
+DELETE http://localhost:5000/test/5ea1c827301a615dc8923187
+
+###
+
+PATCH http://localhost:5000/test/5ea1c896301a615dc8923189
+Content-Type: application/json
+
+{
+    "name": "ben ramspee"
+}

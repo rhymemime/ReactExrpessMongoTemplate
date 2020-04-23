@@ -1,9 +1,7 @@
 require('dotenv').config()
 
 const express = require('express');
-
 const app = express();
-
 const mongoose = require('mongoose')
 
 mongoose.connect(process.env.DATABASE_URL, {useNewUrlParser: true, useUnifiedTopology: true})
@@ -21,7 +19,7 @@ app.get('/api/customers', (req, res) => {
   res.json(customers);
 });
 
-//app.use(express.json())
+app.use(express.json())
 const testRouter = require('./routes/test')
 app.use('/test', testRouter)
 
